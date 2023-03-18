@@ -10,8 +10,10 @@ function Section1() {
       <div className='content'>
         <h1>Typemaster keyboard</h1>
         <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality mechanical typing experience.</p>
-        <button>Pre-order now</button>
-        <span>Release on 5/27</span>
+        <div>
+          <button className='pre-order-btn'>Pre-order now</button>
+          <button className='release-btn' disabled>Release on 5/27</button>
+        </div>
       </div>
       <div className='images'>
         <Images

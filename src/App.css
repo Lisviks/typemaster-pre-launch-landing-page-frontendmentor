@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  max-width: 400px;
+  margin: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  background-color: #e8eff2;
+  color: #162542;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1.1rem 1.4rem;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+  max-width: 400px;
+  padding: 6.4rem 2.4rem 0;
+  overflow: hidden;
+}
+
+.section-1 .content {
+  margin-bottom: 6.4rem;
+}
+
+.section-1 .content h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  color: #162542;
+}
+
+.section-1 .content p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #7b8bad;
+  margin: 3.2rem 0;
+}
+
+.section-1 .content div {
+  display: flex;
+  align-items: center;
+}
+
+.section-1 .content button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.section-1 .content .pre-order-btn {
+  background-color: #f16718;
+  color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1.1rem 1.4rem;
+}
+
+.section-1 .content .release-btn {
+  border: none;
+  background-color: transparent;
+  color: #7b8bad;
+  margin-left: 3.2rem;
+}
+
+.section-1 .images .keyboard-img {
+  width: 100vw;
+  border-radius: 1.5rem;
+}
+
+.section-1 .images .pattern-square {
+  display: none;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+  max-width: 400px;
+  margin: 2.4rem 2.4rem 0;
+}
+
+.section-2 .images {
+  display: flex;
+  justify-content: flex-end;
+  height: 19.3rem;
+  position: relative;
+}
+
+.section-2 .images img {
+  height: 100%;
+  border-radius: 1.5rem;
+}
+
+.section-2 .phone-keyboard-img {
+  position: absolute;
+  left: -4.6rem;
+}
+
+.section-2 .phone-keyboard-img::after {
+  content: '';
+  background: #f16718;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 1.5rem;
+  left: 0;
+  opacity: 0.6;
+}
+
+.section-2 .phone-keyboard-img img {
+  width: 12.9rem;
+}
+
+.section-2 .glass-keyboard-img img {
+  width: 22rem;
+}
+
+.section-2 h2 {
+  margin: 7.5rem 6rem 2.4rem;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.section-2 p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #7b8bad;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+  max-width: 400px;
+  margin: 11.1rem 2.4rem 0;
+}
+
+.section-3 .icon {
+  height: 6.5rem;
+  width: 6.5rem;
+  background-color: #f16718;
+  border-radius: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 .icon.compatible img {
+  height: 2rem;
+  width: 2.5rem;
+}
+
+.section-3 .icon.bluetooth img {
+  height: 2.78rem;
+  width: 1.76rem
+}
+
+.section-3 .icon.battery img {
+  height: 2rem;
+  width: 3.2rem; 
+}
+
+.section-3 .icon.light img {
+  height: 3.2rem;
+  width: 3.2rem; 
+}
+
+.section-3 .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.section-3 .card:last-child {
+  margin-bottom: 0;
+}
+
+.section-3 .card h3 {
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+  color: #162542;
+  margin: 4.8rem 6rem 2.4rem;
+}
+
+
+.section-3 .card p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #7b8bad;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 9.6rem auto 5rem;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #7b8bad;
+  text-align: center;
+  opacity: 0.6;
+}
+
+footer p span {
+  font-weight: 700;
+}
