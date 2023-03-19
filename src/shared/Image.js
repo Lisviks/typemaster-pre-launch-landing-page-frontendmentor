@@ -5,8 +5,8 @@ function Images(props) {
     <img
       className={class_name}
       src={mobile}
-      srcSet={`${mobile} 450w, ${tablet} 800w, ${desktop} 1100w`}
-      sizes='(max-width: 450px) 450px, (max-width: 800px) 800px, 1100px'
+      srcSet={`${mobile} 450w, ${tablet} 1000w, ${desktop} 1100w`}
+      sizes='(max-width: 450px) 450px, (max-width: 1000px) 1000px, 1100px'
       alt={altText}
     />
   )

@@ -95,8 +95,7 @@ header button {
 }
 
 .section-1 .images {
-  width: 100vw;
-  max-width: 100%;
+  width: 100%;
   margin-left: 2.4rem;
   align-self: flex-start;
 }
@@ -178,7 +177,6 @@ header button {
 /* SECTION 3 */
 
 .section-3 {
-  /* max-width: 400px; */
   margin: 11.1rem 2.4rem 0;
 }
 
@@ -262,3 +260,121 @@ footer p span {
   font-weight: 700;
 }
 
+/* TABLET */
+
+@media(min-width: 768px) {
+  header {
+    margin: 4rem;
+  }
+
+  header button {
+    padding: 1.6rem 2.6rem;
+  }
+
+  /* SECTION 1 */
+
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 6.2rem 0 0 4rem;
+  }
+
+  .section-1 .content {
+    margin: 0;
+    min-width: 34rem;
+  }
+
+  .section-1 .content p {
+    margin: 3.4rem 0 3.9rem;
+  }
+
+  .section-1 .content .pre-order-btn {
+    padding: 1.6rem 2.6rem;
+  }
+
+  .section-1 .content .release-btn {
+    margin-left: 3.7rem;
+  }
+
+  .section-1 .images {
+    width: 100%;
+    margin-left: 6.9rem;
+    align-self: flex-start;
+  }
+
+  .section-1 .images .keyboard-img {
+    min-width: 47.8rem;
+    border-radius: 1.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  /* SECTION 2 */
+
+  .section-2 {
+    margin-top: 4rem;
+    overflow: hidden;
+  }
+
+  .section-2 .images {
+    margin: 0 4rem;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .section-2 .images img {
+    min-height: 32rem;
+    border-radius: 1.5rem;
+  }
+
+  .section-2 .phone-keyboard-img {
+    left: 0;
+    margin-right: 3rem;
+  }
+
+  .section-2 .content {
+    max-width: 100rem;
+    margin: 7.2rem 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section-2 h2 {
+    min-width: 26rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  .section-2 p {
+    max-width: 50rem;
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  /* SECTION 3 */
+
+  .section-3 {
+    margin: 14.2rem 0 0 4rem;
+    display: grid;
+    grid-template-columns: 28.1rem 28.1rem;
+    gap: 7.2rem 6.9rem;
+  }
+
+  .section-3 .card {
+    text-align: left;
+    margin-bottom: 0;
+    align-items: start;
+  }
+
+  .section-3 .card h3 {
+    margin: 4rem 0 2.4rem;
+    width: 20rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    margin: 14.2rem auto 4.3rem;
+  }
+}
