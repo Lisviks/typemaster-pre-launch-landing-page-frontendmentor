@@ -27,8 +27,10 @@ function Section2() {
           />
         </div>
       </div>
-      <h2>Mechanical wireless keyboard</h2>
-      <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
+      <div className='content'>
+        <h2>Mechanical wireless keyboard</h2>
+        <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
+      </div>
     </section>
   )
 }
