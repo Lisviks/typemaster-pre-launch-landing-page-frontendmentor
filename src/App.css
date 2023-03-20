@@ -509,3 +509,17 @@ footer p span {
     margin: 12.8rem auto 4rem;
   }
 }
+
+/* HOVER */
+
+header button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #162542;
+  transition: 0.3s ease;
+} 
+
+.section-1 .pre-order-btn:hover {
+  cursor: pointer;
+  background-color: #ff9b62;
+}
