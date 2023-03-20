@@ -126,6 +126,10 @@ header button {
   border-radius: 1.5rem;
 }
 
+.section-2 .pattern-square {
+  display: none;
+}
+
 .section-2 .phone-keyboard-img {
   position: relative;
   left: -2.4rem;
@@ -448,10 +452,24 @@ footer p span {
 
   .section-2 .images {
     margin: 0;
+    position: relative;
   }
 
   .section-2 .images img {
     min-height: 48rem;
+  }
+
+  .section-2 .images .pattern-square {
+    display: block;
+    position: absolute;
+    left: -28.5rem;
+    bottom: 0;
+  }
+
+  .section-2 .images .pattern-square img {
+    min-height: unset;
+    width: 25.5rem;
+    height: 23.6rem;
   }
   
   .section-2 .images .phone-keyboard-img img {

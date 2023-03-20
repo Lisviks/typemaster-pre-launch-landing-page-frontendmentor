@@ -4,12 +4,16 @@ import tabletPhoneKeyboardImg from './assets/tablet/image-phone-and-keyboard.jpg
 import tabletGlassKeyboardImg from './assets/tablet/image-glass-and-keyboard.jpg'
 import desktopPhoneKeyboardImg from './assets/desktop/image-phone-and-keyboard.jpg'
 import desktopGlassKeyboardImg from './assets/desktop/image-glass-and-keyboard.jpg'
+import patternSquare from './assets/shared/pattern-square.svg'
 import Images from './shared/Image'
 
 function Section2() {
   return (
     <section className='section-2'>
       <div className='images'>
+        <div className='pattern-square'>
+          <img src={patternSquare} alt='Square pattern' />
+        </div>
         <div className='phone-keyboard-img'>
           <Images
             mobile={mobilePhoneKeyboardImg}
