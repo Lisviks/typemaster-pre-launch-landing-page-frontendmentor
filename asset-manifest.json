@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/typemaster-pre-launch-landing-page-frontendmentor/static/css/main.f8f37fae.css",
+    "main.js": "/typemaster-pre-launch-landing-page-frontendmentor/static/js/main.9da5cadd.js",
+    "static/media/image-keyboard.jpg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/image-keyboard.bd0aeeafb6adfda0a9ba.jpg",
+    "static/media/image-phone-and-keyboard.jpg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/image-phone-and-keyboard.da1835ce37b1789aadd8.jpg",
+    "static/media/image-glass-and-keyboard.jpg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/image-glass-and-keyboard.c2b923acff4e2bd4d43f.jpg",
+    "static/media/icon-light.svg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/icon-light.762c82d2ae2c9bc79ce71c9f00de0cc8.svg",
+    "index.html": "/typemaster-pre-launch-landing-page-frontendmentor/index.html",
+    "static/media/logo.svg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/logo.59dff8e2243f1e55c5208e06915d53f4.svg",
+    "static/media/icon-bluetooth.svg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/icon-bluetooth.671d67b852a91e7e522e30ff2b9b295e.svg",
+    "static/media/icon-battery.svg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/icon-battery.aac4e71bb65a6278a439ad326302bf95.svg",
+    "static/media/icon-compatible.svg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/icon-compatible.460c5f05e1b3bca7bc6adb96bb11ac89.svg",
+    "static/media/pattern-square.svg": "/typemaster-pre-launch-landing-page-frontendmentor/static/media/pattern-square.c15c40332ce30f488498015294554c31.svg",
+    "main.f8f37fae.css.map": "/typemaster-pre-launch-landing-page-frontendmentor/static/css/main.f8f37fae.css.map",
+    "main.9da5cadd.js.map": "/typemaster-pre-launch-landing-page-frontendmentor/static/js/main.9da5cadd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8f37fae.css",
+    "static/js/main.9da5cadd.js"
+  ]
+}
