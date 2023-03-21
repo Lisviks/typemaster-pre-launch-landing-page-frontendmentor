@@ -29,8 +29,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [URL]()
-- Live Site URL: [URL]()
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/typemaster-pre-launch-landing-page-H6__KXkGRK)
+- Live Site URL: [URL](https://lisviks.github.io/typemaster-pre-launch-landing-page-frontendmentor/)
 
 ## My process
 
